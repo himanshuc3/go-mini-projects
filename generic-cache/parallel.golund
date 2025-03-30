@@ -1,0 +1,45 @@
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func printEverySecond(msg string) {
+	for i := 0; i < 10; i++ {
+		fmt.Println(msg)
+		time.Sleep(time.Second)
+	}
+}
+
+func goRoutineEvample1() {
+
+	go printEverySecond("Hello")
+	go printEverySecond("World")
+
+	// go cookCurrySauce()
+	// go cookRice()
+	// How do we know the food is ready?
+
+	var input string
+
+	// NOTE:
+	// 1. Once the main thread is completed,
+	// the program exits
+	fmt.Scanln(&input)
+}
+
+func main() {
+	c := make(chan struct{}, 1)
+	go func(doneChan chan <- struct{}) {
+		defer func(){
+			fmt.Println("done")
+			doneChan <- struct{}{}
+			close(doneChan)
+		}
+	}(c)
+
+	// NOTE:
+	// 1. Reading - blocking call
+	_ = <- c 
+}

@@ -1,0 +1,18 @@
+"filename", "language", "Go", "Go Module File", "comment", "blank", "total"
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/ecbank/ecb.go", "Go", 48, 0, 6, 13, 67
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/ecbank/ecb_internal_test.go", "Go", 17, 0, 0, 6, 23
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/ecbank/envelope.go", "Go", 74, 0, 11, 29, 114
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/ecbank/errors.go", "Go", 5, 0, 0, 3, 8
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/go.mod", "Go Module File", 0, 2, 0, 2, 4
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/main.go", "Go", 47, 0, 10, 13, 70
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/amount.go", "Go", 28, 0, 8, 6, 42
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/convert_internal_test.go", "Go", 40, 0, 0, 3, 43
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/convert_test.go", "Go", 65, 0, 9, 16, 90
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/covert.go", "Go", 43, 0, 0, 11, 54
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/currency.go", "Go", 32, 0, 3, 11, 46
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/currency_internal_test.go", "Go", 30, 0, 0, 5, 35
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/decimal.go", "Go", 58, 0, 9, 17, 84
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/decimal_internal_test.go", "Go", 34, 0, 2, 4, 40
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/errors.go", "Go", 5, 0, 6, 3, 14
+"/home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/exchangerates.go", "Go", 4, 0, 0, 2, 6
+"Total", "-", 530, 2, 64, 144, 740

@@ -1,0 +1,27 @@
+package main
+
+import "golang.org/x/sync/errgroup"
+
+func main() {
+	var g errgroup.Group
+	g.SetLimit(2)
+
+	g.Go(func() error {
+		cookRice()
+		return nil
+	})
+	g.Go(cookCurry)
+
+	err := g.Wait()
+	if err != nil {
+		// handle error
+	}
+}
+
+func cookRice() {
+	// cook rice here
+}
+
+func cookCurry() error {
+	return nil
+}

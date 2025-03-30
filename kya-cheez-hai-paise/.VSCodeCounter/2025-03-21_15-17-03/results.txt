@@ -1,0 +1,44 @@
+Date : 2025-03-21 15:17:03
+Directory : /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise
+Total : 16 files,  532 codes, 64 comments, 144 blanks, all 740 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| Go             |         15 |        530 |         64 |        142 |        736 |
+| Go Module File |          1 |          2 |          0 |          2 |          4 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                            | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                               |         16 |        532 |         64 |        144 |        740 |
+| . (Files)                                                                                       |          2 |         49 |         10 |         15 |         74 |
+| ecbank                                                                                          |          4 |        144 |         17 |         51 |        212 |
+| money                                                                                           |         10 |        339 |         37 |         78 |        454 |
++-------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                        | language       | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/ecbank/ecb.go                   | Go             |         48 |          6 |         13 |         67 |
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/ecbank/ecb_internal_test.go     | Go             |         17 |          0 |          6 |         23 |
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/ecbank/envelope.go              | Go             |         74 |         11 |         29 |        114 |
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/ecbank/errors.go                | Go             |          5 |          0 |          3 |          8 |
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/go.mod                          | Go Module File |          2 |          0 |          2 |          4 |
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/main.go                         | Go             |         47 |         10 |         13 |         70 |
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/amount.go                 | Go             |         28 |          8 |          6 |         42 |
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/convert_internal_test.go  | Go             |         40 |          0 |          3 |         43 |
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/convert_test.go           | Go             |         65 |          9 |         16 |         90 |
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/covert.go                 | Go             |         43 |          0 |         11 |         54 |
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/currency.go               | Go             |         32 |          3 |         11 |         46 |
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/currency_internal_test.go | Go             |         30 |          0 |          5 |         35 |
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/decimal.go                | Go             |         58 |          9 |         17 |         84 |
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/decimal_internal_test.go  | Go             |         34 |          2 |          4 |         40 |
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/errors.go                 | Go             |          5 |          6 |          3 |         14 |
+| /home/anonymous/Desktop/projects/playground/kya-cheez-hai-paise/money/exchangerates.go          | Go             |          4 |          0 |          2 |          6 |
+| Total                                                                                           |                |        532 |         64 |        144 |        740 |
++-------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

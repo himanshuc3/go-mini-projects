@@ -1,0 +1,45 @@
+package main
+
+import (
+	"fmt"
+	"sync"
+)
+
+func main() {
+	// NOTE:
+	// 1. wg are syntactic sugar over channels
+	// to achieve concurrent behavior
+	// 2. Another state/channel needs to be created
+	// for reporting errors
+	wg := &sync.WaitGroup{}
+	wg.Add(2)
+	errChan := make(chan error, 2)
+
+	go cookRice(wg, errChan)
+	go cookCurry(wg, errChan)
+
+	wg.Wait()
+
+	// NOTE:
+	// 1. Handle with errors, if any
+	// 2. Question - Wouldn't we be stuck on Wait
+	// if errors are thrown and Done isn't called
+	select {
+	case err := <-errChan:
+		// deal with the error
+		fmt.Errorf("Error: %w", err)
+	default:
+		continue
+	}
+}
+
+func cookRice(wg *sync.WaitGroup, errChan chan<- error) {
+	defer wg.Done()
+	fmt.Println("Cooking rice")
+
+}
+
+func cookCurry(wg *sync.WaitGroup, errChan chan<- error) {
+	defer wg.Done()
+	fmt.Println("Preparing curry sauce...")
+}
