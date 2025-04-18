@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasm build</title>
+</head>
+<body>
+    WASM is easy peasy, lemon squezy.
+<script src="wasm_exec.js"></script>
+<script>
+    const helloWASM = new Go()
+    WebAssembly.instantiateStreaming(fetch("main.wasm"), helloWASM.importObject).then((result) => { helloWASM.run(result.instance); });
+</script>
+</body>
+</html>
